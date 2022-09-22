@@ -1,3 +1,18 @@
+html,
+body,
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+    width: ;
+    border: ;
+    padding: 0px;+
+font-size: 62.5%;
+/* rem uses root font size */
+/* em uses parent font size */
+}
+
+
 justify-content: center;
 display: flex;
 flex-wrap: wrap;

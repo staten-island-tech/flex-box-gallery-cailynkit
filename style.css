@@ -12,7 +12,8 @@ font-size: 62.5%;
 /* em uses parent font size */
 }
 
-
-justify-content: center;
+.parent{
+justify-content: ;
 display: flex;
 flex-wrap: wrap;
+}

@@ -32,10 +32,6 @@ h1 {
   /* letter spacing */
 }
 
-img:hover {
-  transform: scale(1.1);
-}
-
 .images {
   width: 100%;
   height: 100%;
@@ -52,4 +48,21 @@ img {
   box-shadow: 2rem;
   box-shadow: 1rem 1rem 1rem rgb(153, 153, 153);
   transition: all 0.3s;
+}
+
+.img:hover {
+  transform: scale(1.1);
+}
+.pink {
+  transition: all 0.5s;
+}
+.pink:hover {
+  transform: rotate(360deg);
+}
+
+.green:hover {
+  transform: scale(1.1);
+}
+.img:hover .img:not(:hover) {
+  opacity: 0.3;
 }

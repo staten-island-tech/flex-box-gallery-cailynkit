@@ -53,16 +53,45 @@ img {
 .img:hover {
   transform: scale(1.1);
 }
-.pink {
+.img {
   transition: all 0.5s;
 }
+
+.blue {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 200%;
+  }
+
+  50% {
+    font-size: 300%;
+    margin-left: 50%;
+    width: 150%;
+  }
+
+  to {
+    margin-left: 12%;
+    width: 100%;
+  }
+}
+
 .pink:hover {
   transform: rotate(360deg);
 }
 
 .green:hover {
-  transform: scale(1.1);
+  transform: translatey(-5rem);
 }
-.img:hover .img:not(:hover) {
-  opacity: 0.3;
+
+.yellow:hover {
+  transform: scale(0.8);
+}
+
+.red:hover {
+  transform: skew(30deg, 20deg);
 }

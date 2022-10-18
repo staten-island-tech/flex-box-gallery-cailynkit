@@ -68,7 +68,6 @@ img {
   }
 
   50% {
-    font-size: 300%;
     margin-left: 50%;
     width: 150%;
   }
@@ -95,12 +94,28 @@ img {
   transform: skew(30deg, 20deg);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 450px) and (orientation: portrait) {
   h1 {
     font-size: 10rem;
   }
   img {
     height: 22.5rem;
     width: 30rem;
+  }
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 120%;
+    }
+
+    50% {
+      margin-left: 50%;
+      width: 110%;
+    }
+
+    to {
+      margin-left: 12%;
+      width: 100%;
+    }
   }
 }

@@ -94,7 +94,7 @@ img {
   transform: skew(30deg, 20deg);
 }
 
-@media (max-width: 450px) and (orientation: portrait) {
+@media (max-width: 600px) and (orientation: portrait) {
   h1 {
     font-size: 10rem;
   }
